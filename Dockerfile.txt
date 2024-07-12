@@ -1,0 +1,5 @@
+From HTTPD
+RUN sudo apt update
+RUN sudo apt docker.io -y
+RUN sudo git clone https://github.com/YuviJohn/myapplication.git
+RUN cp -r ./ /usr/local/apache2/htdocs/
